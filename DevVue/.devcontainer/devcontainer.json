@@ -1,0 +1,17 @@
+{
+  "name": "Node.js & Vue.js",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	//"forwardPorts": [80, 80],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"octref.vetur",
+        "hollowtree.vue-snippets",
+        "esbenp.prettier-vscode"
+			]
+		}
+	},
+  "remoteUser": "node"
+}

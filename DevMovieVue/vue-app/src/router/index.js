@@ -6,6 +6,11 @@ const routes = [
     path: '/',
     name: 'HomeView',
     component: HomeView
+  },
+  {
+    path: '/movie/:imdbID',
+    name: 'Movie Detail',
+    component: () => import(/* webpackChunkName: "movie" */ '@/views/MovieDetail.vue')
   }
 ]
 

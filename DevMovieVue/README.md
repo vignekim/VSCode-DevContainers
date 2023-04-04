@@ -21,7 +21,6 @@ export default {
 
 ### IMDb API
 > - [API Key](https://www.omdbapi.com/apikey.aspx)
-<img src="../images/API_Key.png" width="1000"></img>
 
 
 ### YouTube Link

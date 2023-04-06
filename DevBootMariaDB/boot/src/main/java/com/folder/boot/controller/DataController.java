@@ -1,5 +1,7 @@
 package com.folder.boot.controller;
 
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +18,11 @@ public class DataController {
   @GetMapping("/")
   public String home() {
     return "Data 준비 중! .... " + tm.dbTest();
+  }
+
+  @GetMapping("/user")
+  public Map<String, Object> user(){
+    return tm.findUser();
   }
 
 }
